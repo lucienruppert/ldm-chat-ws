@@ -9,7 +9,7 @@ use Lucien\WsPhp\ChatService;
 
 require __DIR__ . '/vendor/autoload.php';
 
-$port = 9000;
+$port = 8080;
 
 $server = IoServer::factory(
   new HttpServer(
