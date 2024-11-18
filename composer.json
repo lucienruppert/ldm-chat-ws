@@ -1,0 +1,14 @@
+{
+  "name": "lucien/ws-php",
+  "description": "php websocket",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Lucien\\WsPhp\\": "./"
+    }
+  },
+  "require": {
+    "cboden/ratchet": "^0.4.4",
+    "cweagans/composer-patches": "^1.7"
+  }
+}
